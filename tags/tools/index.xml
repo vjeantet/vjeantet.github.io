@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Valère JEANTET</title>
+    <link>http://vjeantet.fr/tags/tools/</link>
+    <description>Recent content in Tools on Valère JEANTET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sat, 17 May 2014 18:03:35 +0200</lastBuildDate>
+    <atom:link href="http://vjeantet.fr/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>OsX, you&#39;re talking to me ?</title>
+      <link>http://vjeantet.fr/osx-youre-talking-to-me/</link>
+      <pubDate>Sat, 17 May 2014 18:03:35 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/osx-youre-talking-to-me/</guid>
+      <description>
+
+&lt;p&gt;Just found a fun command on Mac Os X, named as &amp;ldquo;say&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;say&lt;/strong&gt; converts what you give it as input, as an audible sound.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say &amp;quot;hello&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Combine it with pipes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ date | say
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;$ fortune | say
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let it notify you when a job&amp;rsquo;s completed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew update &amp;amp;&amp;amp; say &#39;Brew updated&#39; &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;say&lt;/strong&gt;  can&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;save the audible to a mp3 file&lt;/li&gt;
+&lt;li&gt;slow its speech rate&lt;/li&gt;
+&lt;li&gt;send it to a network port&lt;/li&gt;
+&lt;li&gt;use the voice/language you want. male/female/french/dutch&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All options are available with a &lt;code&gt;$ man say&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;examples:7bdab6573b9849ec7cd0585a6e1ed77a&#34;&gt;Examples :&lt;/h3&gt;
+
+&lt;p&gt;With a french voice&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say --voice Thomas &amp;quot;Bonjour je m&#39;appelle Valère&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To know which voices are available on your system : &lt;code&gt;$ say --voice ?&lt;/code&gt;, to install more voices, go to your system preferences.&lt;/p&gt;
+
+&lt;p&gt;The same, faster.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say --voice Thomas --rate=400 &amp;quot;Bonjour je m&#39;appelle Valère&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/26758.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1 clavier, 1 souris, et plusieurs machines.</title>
+      <link>http://vjeantet.fr/1-clavier-1-souris-et-plusieurs-machines/</link>
+      <pubDate>Thu, 14 Apr 2005 22:17:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/1-clavier-1-souris-et-plusieurs-machines/</guid>
+      <description>
+
+&lt;p&gt;Vous avez 2 écrans branchés sur une même machine, ou plusieurs ordinateurs sous différents OS.&lt;/p&gt;
+
+&lt;p&gt;Je vous présente dans ce billet des méthodes pour profiter au maximum de vos machines avec 1 clavier et 1 souris.&lt;/p&gt;
+
+&lt;p&gt;Autrement dit : passer la souris/clavier de votre PC linux à l&amp;rsquo;ordinateur portable sous MS Windows ou MACosX, et ceci de manière naturelle sans manipulation spéciale.&lt;/p&gt;
+
+&lt;p&gt;Tout informaticien ou geek qui se respecte posséde au moins 2 ordinateurs chez lui, ou au moins 2 écrans branchés sur sa machine.
+Il y a donc aussi au moins 2 claviers et 2 souris qui traînent sur le même bureau et c&amp;rsquo;est tout de suite moins marrant de passer d&amp;rsquo;un clavier à l&amp;rsquo;autre (quand on se trompe pas) et d&amp;rsquo;une souris à l&amp;rsquo;autre.&lt;/p&gt;
+
+&lt;h1 id=&#34;les-solutions-existent:465a06521aaef5a33f34892f602c0442&#34;&gt;Les solutions existent&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Installer un &amp;ldquo;Switch KVM&amp;rdquo; (Keyboard, Video, Mouse), un petit boitier sur lequel vous branchez 1 clavier et 1 souris, et que vous reliez à toutes vos autre machines.
+
+&lt;ul&gt;
+&lt;li&gt;Problèmes : vous devez relier physiquement toutes les machines (cartes graphiques, sortie clavier/souris) au boîtier, et appuyer sur un bouton pour passer d&amp;rsquo;une machine à l&amp;rsquo;autre, et payer !&lt;/li&gt;
+&lt;li&gt;Avantages : Ça marche avec tous les systèmes et aucune installation de logiciel n&amp;rsquo;est nécessaire.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Utiliser 1 seul écran/clavier/souris et prendre le controle des autres machines en mode console, ou en mode graphique avec un PcAnywhere / VNC / Remote X Session (Unix / Linux)
+
+&lt;ul&gt;
+&lt;li&gt;Problèmes : C&amp;rsquo;est pas pratique, vous gardez 1 écran et perdez en surface utilisable.&lt;/li&gt;
+&lt;li&gt;Avantages : Ça marche avec tous les systèmes. / des outils gratuits existent&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;3eme solution, utiliser tous les écrans, avec un seul clavier, une seule souris, pour former un unique large écran virtuel.&lt;/p&gt;
+
+&lt;p&gt;En fait pour passer d&amp;rsquo;un écran à l&amp;rsquo;autre, il suffira de glisser la souris vers le bord en direction de l&amp;rsquo;écran suivant, et quand elle disparaît d&amp;rsquo;un écran elle apparaît sur l&amp;rsquo;autre écran, créant l&amp;rsquo;illusion que vous avez déplacé la souris sur l&amp;rsquo;autre écran (le clavier est actif sur l&amp;rsquo;écran où est la souris, idem pour? le presse-papiers ! et ceci d&amp;rsquo;un OS à l&amp;rsquo;autre !)&lt;/p&gt;
+
+&lt;p&gt;Vous disposez les écrans de la manière que vous voulez.&lt;/p&gt;
+
+&lt;h1 id=&#34;les-outils-existent-et-ils-sont-tous-gratuit:465a06521aaef5a33f34892f602c0442&#34;&gt;Les outils existent et ils sont tous gratuit&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Synergie, le plus complet, vous permet de partager votre souris/clavier/presse-papier entre plusieurs machines (windows/Linux/Unix) et MAC ( même combinés ).&lt;/li&gt;
+&lt;li&gt;x2x lui est limités aux serveurs X donc, linux/unix/macOsx et windows (si vous installer un serveur x dessus).&lt;/li&gt;
+&lt;li&gt;x2vnc est utilisable lorsque le clavier et la souris sont sur un ordinateur sous serveur X, et les autres machines sous n&amp;rsquo;importe quel OS, ce logiciel utilise le protocole RFB de VNC pour communiquer avec les autres ordinateur.&lt;/li&gt;
+&lt;li&gt;win2vnc lui est fait pour l&amp;rsquo;utilisateur qui a son clavier/souris branchés sur une machine Windows, les OS des autres machines n&amp;rsquo;ont pas d&amp;rsquo;importance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;tous-ces-outils-fonctionnent-de-la-même-façon:465a06521aaef5a33f34892f602c0442&#34;&gt;Tous ces outils fonctionnent de la même façon&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;(pour windows) il faut installer un serveur VNC sur les machines esclaves.&lt;br /&gt;
+(pour linux/unix/mac) il faut autoriser les connections depuis la machine maître. (une simple commande du type : $xhost + machineMaitre)&lt;/li&gt;
+&lt;li&gt;Sur la machine Maître (celle sur laquelle le clavier et souris sont installés) on lance x2x, x2vnc, win2vnc ou Synergie (en fonction de sa configuration).
+On déclare que la machine esclave1 est à gauche de l&amp;rsquo;écran maître, que exclave2 est à droite, en bas ou en haut par rapport au maître, ainsi de suite.&lt;/li&gt;
+&lt;li&gt;Avec votre souris, passez d&amp;rsquo;un écran à l&amp;rsquo;autre.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;explications-techniques:465a06521aaef5a33f34892f602c0442&#34;&gt;Explications techniques&lt;/h2&gt;
+
+&lt;p&gt;Lorsque vous avez démarré l&amp;rsquo;outil en lui indiquant que par exemple, la machine esclave 2 est à droite de l&amp;rsquo;écran maître, l&amp;rsquo;outil va créer une fenêtre (invisible) de 1 pixel de largeur et prenant toute la hauteur de votre écran, lorsque la souris passe dessus, hop ! il envoie le focus sur l&amp;rsquo;autre écran (en fait il envoie uniquement les codes des touches claviers et les coordonnées de la souris.).&lt;/p&gt;
+
+&lt;p&gt;Le point négatif que l&amp;rsquo;on peut trouver au système c&amp;rsquo;est la sécurité : les informations passent par le réseaux (dans le cas de plusieurs machines) et en clair (protocole RFB ou Xwindow).&lt;/p&gt;
+
+&lt;p&gt;La solution sous linux/unix est de créer un tunnel SSH entre maître et esclave.&lt;/p&gt;
+
+&lt;p&gt;A noter que vous pouvez utiliser ce système en local si vous avez 2 ou 3 écrans banchés sur le même PC ! (Le mode Xinerama vous permet ceci&amp;hellip; mais pas si vous avez un serveur X par carte graphique. (Xinerama = un serveur logique sur plusieurs cartes graphiques).&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est simple, limite débile, mais c&amp;rsquo;est excellent et extrêmement pratique.&lt;/p&gt;
+
+&lt;h1 id=&#34;les-liens:465a06521aaef5a33f34892f602c0442&#34;&gt;Les liens&lt;/h1&gt;
+
+&lt;p&gt;&lt;strong&gt;Synergy&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;http://synergy2.sourceforge.net/&#34;&gt;http://synergy2.sourceforge.net/&lt;/a&gt;
+le plus complet de ces outils, écrans de veille synchro, multi OS dans tous les sens&amp;hellip;
+licence : GPL&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;x2x&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;http://freshmeat.net/projects/x2x/&#34;&gt;http://freshmeat.net/projects/x2x/&lt;/a&gt;
+pour serveurs Xwindow seulement.
+Licence BSD&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;x2VNC&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;http://fredrik.hubbe.net/x2vnc.html&#34;&gt;http://fredrik.hubbe.net/x2vnc.html&lt;/a&gt;
+Au moins le serveur maître en Xwindows, limité, techniquement, à 2 écrans !
+Licence GPL&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Win2vnc&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&#34;http://fredrik.hubbe.net/win2vnc.html&#34;&gt;http://fredrik.hubbe.net/win2vnc.html&lt;/a&gt;
+description
+la même chose que x2VNC mais pour serveur Windows seulement&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

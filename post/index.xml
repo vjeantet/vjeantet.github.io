@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Post on Valère JEANTET</title>
+    <link>http://vjeantet.fr/post/</link>
+    <description>Recent content in Post on Valère JEANTET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Fri, 13 Mar 2015 16:10:08 +0100</lastBuildDate>
+    <atom:link href="http://vjeantet.fr/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Résumé de notre projet &#34;Agence connectée&#34; lors du hackathon SOCIETE GENERALE OBJETS CONNECTES</title>
+      <link>http://vjeantet.fr/hackathon-societe-generale-agence-connectee/</link>
+      <pubDate>Fri, 13 Mar 2015 16:10:08 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/hackathon-societe-generale-agence-connectee/</guid>
+      <description>&lt;p&gt;Voici une compilation des travaux menés lors du hackathon avec la petite équipe formée pour l&amp;rsquo;occasion !&lt;/p&gt;
+
+&lt;p&gt;On recommence quand vous voulez les garçons !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/images/sgthon/A.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/B.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/C.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/D.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/E.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/F.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/G.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/H.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/I.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/J.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/K.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/L.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/M.jpg&#34; alt=&#34;&#34; /&gt;
+&lt;img src=&#34;http://vjeantet.fr/images/sgthon/N.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Moving from Ghost to HUGO</title>
+      <link>http://vjeantet.fr/moving-from-ghost-to-hugo/</link>
+      <pubDate>Mon, 02 Mar 2015 16:08:29 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/moving-from-ghost-to-hugo/</guid>
+      <description>
+
+&lt;p&gt;I started to blog 11 years ago.
+The first blog system i used, was Dotclear, I moved to Wordpress few years after because of the large plugin and theme ressources available.
+Wordpress is a really good blog platform, but it updates itslef too often for me.&lt;/p&gt;
+
+&lt;p&gt;Few months ago, the blog moved to &lt;a href=&#34;https://ghost.org&#34;&gt;Ghost&lt;/a&gt;, a really minimalist blog system, based on nodejs.
+A KISS aproach to the blog, I falled in love.
+The only issue i had with Ghost was about the hosting dependencies, no hard to manage, but since i don&amp;rsquo;t master nodeJs, i spent too much hours to hack into.&lt;/p&gt;
+
+&lt;p&gt;I discovered HUGO.
+Hugo is a static blog generator, written with a language (GOLANG), i use everyday.&lt;/p&gt;
+
+&lt;p&gt;So, i moved from GHOST to HUGO hosted on Google App engine.&lt;/p&gt;
+
+&lt;h2 id=&#34;ghost-migration-to-hugo:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Ghost migration to Hugo&lt;/h2&gt;
+
+&lt;p&gt;Ghost and Hugo share the same markdown notation for posts content.
+The fist thing to do : extract posts from Ghost db (sqlite) to individual .md files and move them to HUGO/content/post/ folder.&lt;/p&gt;
+
+&lt;p&gt;The code I used to achieve this is here : &lt;a href=&#34;https://gist.github.com/vjeantet/d1f6cf824a2344dd6b4e&#34;&gt;GHOST_TO_HUGO.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Next step, move GHOST/content directory to HUGO/static directory.
+This way all references like images keep working.&lt;/p&gt;
+
+&lt;p&gt;Migration completed !&lt;/p&gt;
+
+&lt;h2 id=&#34;theme:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Theme&lt;/h2&gt;
+
+&lt;p&gt;The default theme on ghost was perfect for my blog, but unavailable on HUGO… So i ported the casper theme from GHOST to HUGO, you can find it here : &lt;a href=&#34;https://github.com/vjeantet/hugo-theme-casper&#34;&gt;hugo-theme-casper&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;publishing:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Publishing&lt;/h2&gt;
+
+&lt;h3 id=&#34;google-app-engine:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Google App Engine&lt;/h3&gt;
+
+&lt;p&gt;I put my GAE configuration file &lt;strong&gt;app.yaml&lt;/strong&gt;  into the HUGO/static directory, to see it pushed when hugo generate the static site.&lt;/p&gt;
+
+&lt;p&gt;To publish it online, i run the &lt;a href=&#34;https://github.com/vjeantet/vjeantet.fr/blob/master/deploy.sh&#34;&gt;deploy.sh script&lt;/a&gt; to&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;stage/commit/push contents changes to my git repo&lt;/li&gt;
+&lt;li&gt;deploy the public directory to Google App Engine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;$ ./deploy.sh
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;This Blog is now Proudly published with &lt;a href=&#34;http://gohugo.io&#34;&gt;HUGO&lt;/a&gt;, with a Casper theme and hosted on Google App Engine.&lt;/p&gt;
+
+&lt;h3 id=&#34;github:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Github&lt;/h3&gt;
+
+&lt;p&gt;You can publish your site to github.io, see documentation here : &lt;a href=&#34;http://gohugo.io/tutorials/github-pages-blog/&#34;&gt;Hosting on GitHub Pages&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;source-code:0ad563e7e64763990f7a148888a22ae0&#34;&gt;Source code&lt;/h2&gt;
+
+&lt;p&gt;All source code from for this blog, app.yaml, deploy.sh, content and theme are on github : &lt;a href=&#34;https://github.com/vjeantet/vjeantet.fr&#34;&gt;github.com/vjeantet/vjeantet.fr&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackathon Société Générale II (#SGConnectedHACK)</title>
+      <link>http://vjeantet.fr/hackathon-societe-generale-ii-sgconnectedhack/</link>
+      <pubDate>Thu, 25 Sep 2014 14:41:06 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/hackathon-societe-generale-ii-sgconnectedhack/</guid>
+      <description>&lt;p&gt;Mes notes graphiques de la soirée idéation&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Sep/Hackathon-sg-2-vjeantet.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;à vendredi !&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>dotScale 2014 as a sketch</title>
+      <link>http://vjeantet.fr/dotscale-2014-as-a-sketch/</link>
+      <pubDate>Fri, 11 Jul 2014 10:54:24 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/dotscale-2014-as-a-sketch/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale2014.png&#34; alt=&#34;&#34; /&gt;
+No enough time to write a summary of the last dotScale in Paris.&lt;/p&gt;
+
+&lt;p&gt;I publish some graphical notes i&amp;rsquo;ve done during the event.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale14_notes_talk1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale14_notes_talk2.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;I know there is a missing H in &amp;ldquo;GITUB&amp;rdquo;, live notes are live notes&amp;hellip; :-)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale14_notes_talk3.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale14_notes_talk4-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/dotscale14_notes_talk5.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackathon GDFSUEZ</title>
+      <link>http://vjeantet.fr/hackathon-gdfsuez/</link>
+      <pubDate>Tue, 01 Jul 2014 12:00:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/hackathon-gdfsuez/</guid>
+      <description>&lt;p&gt;Mes notes graphique réalisées pendant la journée de préparation du hackathon GDF SUEZ.&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Notes reprises dans zdnet pour illustrer l&amp;rsquo;événement : &lt;a href=&#34;http://www.zdnet.fr/actualites/hackgdfsuez-la-transformation-numerique-est-en-marche-39803135.htm&#34;&gt;http://www.zdnet.fr/actualites/hackgdfsuez-la-transformation-numerique-est-en-marche-39803135.htm&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/hackgdfsuez_notes_vjeantet.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackathon Global Summit Of Women</title>
+      <link>http://vjeantet.fr/hackathon-global-summit-of-women/</link>
+      <pubDate>Thu, 05 Jun 2014 19:00:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/hackathon-global-summit-of-women/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Jul/hackgsw_notes_vjeantet.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hackaton Société Générale - jour 1</title>
+      <link>http://vjeantet.fr/hackaton-societe-generale-jour-1/</link>
+      <pubDate>Thu, 29 May 2014 01:47:50 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/hackaton-societe-generale-jour-1/</guid>
+      <description>
+
+&lt;p&gt;Lors de la soirée pré-hackathon, les organisateurs de bemyapp, Pierre, Dorothée, Gwenn ont donné les contraintes aux porteurs de projets.
+Une idée, Une minute, 1 slide.&lt;/p&gt;
+
+&lt;p&gt;Thomas, compagnon de meetup, dotscale et soutient psychologique au travail, et moi même avons chacun notre idée à présenter.
+La prise de parole en publique devant 200 personnes n&amp;rsquo;étant pas notre dada, nous rédigeons, corrigons, répètons et chronomètrons nos pitch pendant l&amp;rsquo;heure de déjeuner du vendredi.&lt;/p&gt;
+
+&lt;p&gt;Le hackathon aura lieu à l&amp;rsquo;école 42, l&amp;rsquo;école de Xavier Niel, une découverte pour nous.&lt;/p&gt;
+
+&lt;h1 id=&#34;ecole-42:a79860ef6c2f8fa17a82a5737c2b3195&#34;&gt;ECOLE 42&lt;/h1&gt;
+
+&lt;p&gt;Pour décrire les locaux de 42, j&amp;rsquo;hésite en parc de loisir et startup de rêve.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/42.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Une salle d&amp;rsquo;attente futuriste, les serveurs informatiques installés derrière une baie vitrée dans l&amp;rsquo;entrée, salle des ordinateurs, nommée &amp;ldquo;cluster&amp;rdquo;, 300 iMac dernier cri, salle de jeu vidéo, babyfoot, distributeur de panini, toilette avec un indicateur de respect des règles d&amp;rsquo;hygiènes, douches, salle &amp;ldquo;dodo&amp;rdquo; isolée, salle de repos, terasse, une salle de conférence &amp;hellip; Et&amp;hellip; Aucune salle de cours.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;enseignement est &amp;ldquo;inversé&amp;rdquo;, les élèves apprennent chez eux, et viennent échanger, se corriger dans l&amp;rsquo;école, surprenant !&lt;/p&gt;
+
+&lt;h1 id=&#34;pitchs:a79860ef6c2f8fa17a82a5737c2b3195&#34;&gt;Pitchs&lt;/h1&gt;
+
+&lt;p&gt;C&amp;rsquo;est l&amp;rsquo;heure des pitchs, Thomas présente le projet &amp;ldquo;Annuaire des technos&amp;rdquo;
+Une sorte de page jaunes interne des équipes, en gros un référentiel de cartes de visites technique et technologique des équipes de dev.&lt;/p&gt;
+
+&lt;p&gt;BOUM, Alarme incendie (meme l&amp;rsquo;alarme est classe à 42, une voix vous parle et vous explique ce qui se passe) tout le monde sors, 30 minutes de pause, puis revient, mais plus de projecteur disponible, plus aucune sonorisation, les pitchs s&amp;rsquo;enchaînent&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;A mon tour avec le projet &amp;ldquo;minutes&amp;rdquo;
+Un gestionnaire des comptes rendus de réunion, intégré aux messagerie electroniques, permettant de collaborer lors la préparation, la rédaction et le traitement de la réunion.&lt;/p&gt;
+
+&lt;p&gt;Les pitchs sans projecteur, c&amp;rsquo;est 50% de message en moins,
+Les pitchs sans microphone, c&amp;rsquo;est 50% de communication en moins, dommage.&lt;/p&gt;
+
+&lt;h1 id=&#34;constitution-des-équipes:a79860ef6c2f8fa17a82a5737c2b3195&#34;&gt;Constitution des équipes&lt;/h1&gt;
+
+&lt;p&gt;Je dois, avec chacun de mes camarades porteurs d&amp;rsquo;idée, rechercher une équipe, vendre mon projet, et convaincre les personnes de travailler 40h non stop sur mon projet.&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;ai convaincu 3 personnes, malheureusement aucune d&amp;rsquo;entres elles n&amp;rsquo;est developpeur, snif j&amp;rsquo;abandonne mon projet.&lt;/p&gt;
+
+&lt;p&gt;Avec le recul, je pense :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;avoir mal vendu mon projet; le compte rendu de réunion n&amp;rsquo;est pas forcement très sexy.&lt;/li&gt;
+&lt;li&gt;m&amp;rsquo;être trompé d&amp;rsquo;objectif, j&amp;rsquo;ai orienté mon pitch pour convaincre le jury que mon idée était la meilleure, alors que ce sont les developpeurs de la salle que j&amp;rsquo;aurai du aller  cibler.&lt;/li&gt;
+&lt;li&gt;le nom de mon projet n&amp;rsquo;était pas écrit sur mon panneau, j&amp;rsquo;étais donc non identifiable, contrairement aux 24 autres idées.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Thomas a réussie a trouver 5 personnes, dont 4 élèves de l&amp;rsquo;école 42.&lt;/p&gt;
+
+&lt;h1 id=&#34;installation-des-équipes:a79860ef6c2f8fa17a82a5737c2b3195&#34;&gt;installation des équipes&lt;/h1&gt;
+
+&lt;p&gt;Les équipes sont invitées à rejoindre le cluster (une salle pleine à craquer de iMac) et choisir leur camp de base pour les 2 prochaines journées.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/cluster_42.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Je rejoins l&amp;rsquo;équipe autour de l&amp;rsquo;idée de Thomas, mon projet hackathon sera &amp;ldquo;Annuaire des technos&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Une discussion trés technique plonge l&amp;rsquo;équipe sur le choix des technologies qu&amp;rsquo;il faudrait mettre en oeuvre, ça parle DRUPAL, Angular, flux d&amp;rsquo;activité, réseau social&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;J&amp;rsquo;ai le sentiment que l&amp;rsquo;on va trop vite, mais je ne l&amp;rsquo;exprime pas et je n&amp;rsquo;interviens pas dans le débat, ça me semble prématuré.&lt;/p&gt;
+
+&lt;p&gt;Il est 23h00, chacun d&amp;rsquo;entre nous à prévu de rentrer chez lui ce soir, JB le vétéran DRUPAL a la bonne idée de collecter les adresses email de chacun.&lt;/p&gt;
+
+&lt;p&gt;Avec le recul:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;je pense avoir bien fait de ne pas etre intervenu dans la discussion, dernier tout juste arrivé dans l&amp;rsquo;équipe qui n&amp;rsquo;est pas encore un groupe, le marathon commence demain.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;on a fait le bon choix de rentrer chez nous, car les 2 journées qui suivront seront intenses et épuisantes.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Bonsoir et à demain en forme&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Retour d&#39;experience hackathon Societe generale</title>
+      <link>http://vjeantet.fr/retour-dexperience-hackathon-societe-generale/</link>
+      <pubDate>Wed, 28 May 2014 13:54:54 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/retour-dexperience-hackathon-societe-generale/</guid>
+      <description>
+
+&lt;p&gt;Ce week-end, j&amp;rsquo;ai participé au &lt;a href=&#34;http://hackathonsg.bemyapp.com/&#34;&gt;hackathon organisé par bemyapp pour la SOCIÉTÉ GÉNÉRALE&lt;/a&gt;.
+Une première pour moi et la SocGen.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/hackhatonsg.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Expérience unique que je me propose de retourner ici sur plusieurs billets.&lt;/p&gt;
+
+&lt;p&gt;L&amp;rsquo;objectif de ce retour d&amp;rsquo;expérience est de partager ma réflexion et tirer les enseignements positifs et négatifs de cet événement.&lt;/p&gt;
+
+&lt;p&gt;Je vais essayer de faire une synthèse sur&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;la démarche développée&lt;/li&gt;
+&lt;li&gt;les méthodes employées&lt;/li&gt;
+&lt;li&gt;les production réalisées&lt;/li&gt;
+&lt;li&gt;le rôle et l&amp;rsquo;implication des différents acteurs.&lt;/li&gt;
+&lt;li&gt;les moyens utilisés.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les propos tenus ici sont tirés uniquement de mon point de vue, mon expérience.
+L&amp;rsquo;interprétation des événements est forcément différente d&amp;rsquo;une personne à l&amp;rsquo;autre, c&amp;rsquo;est d&amp;rsquo;ailleurs, je pense, ce qui pourrait valoriser ce REX, à la condition qu&amp;rsquo;il soit accompagné d&amp;rsquo;autres points de vue.&lt;/p&gt;
+
+&lt;p&gt;Je préciserai mon rôle, mon parcours dans les différents billets, et ajouterai des liens vers d&amp;rsquo;autres billets lorsqu&amp;rsquo;ils apparaîtront sur le net.&lt;/p&gt;
+
+&lt;h1 id=&#34;un-hackathon:70c0f0e0117bd43a515f83c4dde67033&#34;&gt;Un hackathon&lt;/h1&gt;
+
+&lt;p&gt;Pour faire simple, voici la définition de wikipédia, elle est pertinente&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;C’est un rassemblement de &lt;strong&gt;développeurs&lt;/strong&gt; organisés par &lt;strong&gt;équipe&lt;/strong&gt; autour de &lt;strong&gt;porteurs de projet&lt;/strong&gt; avec l’objectif de produire un prototype d’application en quelques heures. Sous forme de concours chronométré, l’équipe gagnante est généralement désignée par &lt;strong&gt;un jury&lt;/strong&gt; à l’issue du temps imparti. La référence au Marathon se justifie par le &lt;strong&gt;travail sans interruption&lt;/strong&gt; des développeurs pendant deux jours. &lt;strong&gt;Le repos n’a pas vraiment sa place&lt;/strong&gt; dans ce type d’évènement !&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La référence au marathon est plus que justifiée, j&amp;rsquo;essaierai dans un billet de décrire dans quel état physique on peut se retrouver à la fin de 48h de hackathon (et les jours suivants).&lt;/p&gt;
+
+&lt;h1 id=&#34;le-pré-hackathon-société-générale:70c0f0e0117bd43a515f83c4dde67033&#34;&gt;Le pré-hackathon Société Générale&lt;/h1&gt;
+
+&lt;p&gt;s&amp;rsquo;est déroulé 1 semaine avant le véritable démarrage du hackathon, dans lieu sympathique, &lt;a href=&#34;http://www.lacartonnerieparis.com&#34;&gt;la cartonnerie&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/Capture-db--C-cran-2014-05-28-C--13-26-24.png&#34; alt=&#34;&#34; /&gt;
+L&amp;rsquo;idée était de présenter le jury, les régles du jeu, et permettre aux porteurs d&amp;rsquo;idées d&amp;rsquo;exposer leur projet auprés des mentors (généralement un salarié du groupe SG, à la fois membre du jury  et coach) pour vérifier la pertinence de son idées et/ou l&amp;rsquo;ajuster au theme apporté par la SG :
+&amp;gt; Créer des applications améliorant les processus et le quotidien des développeurs au sein des DSI&lt;/p&gt;
+
+&lt;p&gt;Des outils de dev pour les devs&amp;hellip; parfait !&lt;/p&gt;
+
+&lt;p&gt;2 intervenants à la tribune sont venus présenter leur vieille société (elle fete ses 150 ans)
+J&amp;rsquo;ai particulierement apprécié le fait que la premiere personne, Carlos Goncalves DSI, ait directement mis carte sur table en expliquant qu&amp;rsquo;il s&amp;rsquo;agissait d&amp;rsquo;une opération de communication de leur part.
+Cette &amp;ldquo;sincérité/normalité&amp;rdquo; de la part d&amp;rsquo;une banque, était inattendue et permis au moins d&amp;rsquo;éviter un rejet psychologique de la part des participants.&lt;/p&gt;
+
+&lt;p&gt;*&lt;strong&gt;SPOILER&lt;/strong&gt; : Au dela de l&amp;rsquo;opération de communication, j&amp;rsquo;ai pu voir que ce sponsor n&amp;rsquo;a pas fait que payer sa com, mais a vraiment participé au hackathon : certains mentors ont fait nuit blanche,  codés, coachés , joués avec les NERF, et meme poussés la chansonnette au milieu de la nuit.*&lt;/p&gt;
+
+&lt;p&gt;Ce qu&amp;rsquo;il fallait retenir,&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;La SG a 150 ans&lt;/li&gt;
+&lt;li&gt;la transition numérique elle la fait, ou elle meurt.&lt;/li&gt;
+&lt;li&gt;2 axes de transformation dans leur DSI :
+
+&lt;ul&gt;
+&lt;li&gt;Great Place to Work (ou comment faire en sorte que les informaticiens aient envie de travailler chez eux, &lt;strong&gt;et surtout de rester&lt;/strong&gt; !&lt;/li&gt;
+&lt;li&gt;Continuous delivery, Livrer réguliérement de la valeur et de la qualité.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;La suite dans le prochain billet.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>OsX, you&#39;re talking to me ?</title>
+      <link>http://vjeantet.fr/osx-youre-talking-to-me/</link>
+      <pubDate>Sat, 17 May 2014 18:03:35 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/osx-youre-talking-to-me/</guid>
+      <description>
+
+&lt;p&gt;Just found a fun command on Mac Os X, named as &amp;ldquo;say&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;say&lt;/strong&gt; converts what you give it as input, as an audible sound.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say &amp;quot;hello&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Combine it with pipes&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ date | say
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;$ fortune | say
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Let it notify you when a job&amp;rsquo;s completed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ brew update &amp;amp;&amp;amp; say &#39;Brew updated&#39; &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;say&lt;/strong&gt;  can&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;save the audible to a mp3 file&lt;/li&gt;
+&lt;li&gt;slow its speech rate&lt;/li&gt;
+&lt;li&gt;send it to a network port&lt;/li&gt;
+&lt;li&gt;use the voice/language you want. male/female/french/dutch&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All options are available with a &lt;code&gt;$ man say&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;examples:7bdab6573b9849ec7cd0585a6e1ed77a&#34;&gt;Examples :&lt;/h3&gt;
+
+&lt;p&gt;With a french voice&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say --voice Thomas &amp;quot;Bonjour je m&#39;appelle Valère&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To know which voices are available on your system : &lt;code&gt;$ say --voice ?&lt;/code&gt;, to install more voices, go to your system preferences.&lt;/p&gt;
+
+&lt;p&gt;The same, faster.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;$ say --voice Thomas --rate=400 &amp;quot;Bonjour je m&#39;appelle Valère&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/May/26758.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mon Devoxx France 2014</title>
+      <link>http://vjeantet.fr/devoxx-france-2014-review/</link>
+      <pubDate>Fri, 18 Apr 2014 23:00:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/devoxx-france-2014-review/</guid>
+      <description>
+
+&lt;p&gt;3 jours de conférences au Devoxx france 2014&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-i:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour I&lt;/h1&gt;
+
+&lt;p&gt;Première journée, récupération du badge, tour des exposants, goodies, café croissants, tout commence bien.&lt;/p&gt;
+
+&lt;p&gt;Déjà 9h20, les sessions du matin vont commencer, la salle où l&amp;rsquo;on va parler docker est pleine à craquer #fail pour moi.&lt;/p&gt;
+
+&lt;p&gt;Redirection immédiate vers &amp;ldquo;Angularjs from scratch&amp;rdquo;&amp;hellip; La salle craque&amp;hellip; Je me repli vers l&amp;rsquo;auditorium sur Cassandra ; la salle peut encore accueillir du monde, ça tombe bien, ça m&amp;rsquo;intéresse.&lt;/p&gt;
+
+&lt;h2 id=&#34;techniques-de-modélisation-avancée-avec-cassandra:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Techniques de modélisation avancée avec Cassandra&lt;/h2&gt;
+
+&lt;p&gt;3h sur &lt;a href=&#34;http://cassandra.apache.org&#34;&gt;Cassandra&lt;/a&gt;, explication en profondeur de fonctionnement de Cassandra: structures de données, patterns et antipatterns, modèlisation, structures de persistance, language de requêtes etc&amp;hellip; Speaker, DuyHai DOAN (@doanduyhai), de très bonne qualité.&lt;/p&gt;
+
+&lt;h1 id=&#34;buffet:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Buffet !&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/resto.png&#34; alt=&#34;&#34; /&gt;
+Midi on mange ! Au buffet !&lt;/p&gt;
+
+&lt;h2 id=&#34;linux-101-ou-linux-domptez-le-pingouin:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Linux 101 (ou Linux, domptez le pingouin)&lt;/h2&gt;
+
+&lt;p&gt;On reprends a 13h30 sur la session de 3h &amp;ldquo;Linux 101 (ou Linux, domptez le pingouin)&amp;rdquo;
+&amp;ldquo;Un voyage au cœur de L&amp;rsquo;OS qui commence au boot, exécution du kernel, qui passe par les systèmes de gestion des services&amp;hellip;&amp;rdquo; &amp;hellip; &amp;ldquo;On ouvre le capot !&amp;rdquo;.
+Les 2 intervenants ont préparé un scénario pour rendre la chose plus dynamique, marrante c&amp;rsquo;est plutôt bien vue !
+La salle est pleine, on commence par la découverte des commandes: more, cd, cat&amp;hellip;. 20 minutes, puis on continue avec find, grep, sudo&amp;hellip; je m&amp;rsquo;assoupi.&lt;/p&gt;
+
+&lt;p&gt;Je me réveille 40 minutes avant la fin. &amp;ldquo;grub&amp;rdquo; est sur les slides, puis on termine avec systemd, c&amp;rsquo;est ce qui m&amp;rsquo;a le plus intéressé.&lt;/p&gt;
+
+&lt;p&gt;Bref déçu par le contenu, les auditeurs connaissaient déjà linux, les intervenants étant des experts redhat &amp;amp; Devops, je pensai que l&amp;rsquo;on allait rentrer dans l&amp;rsquo;os et pas le découvrir en surface.
+Ça fera tout de même une belle vidéo pour qui ne connais que très très peu linux et voudrait le redécouvrir.&lt;/p&gt;
+
+&lt;p&gt;#Café !
+&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/cafe.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-redis-une-base-not-only-nosql:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Redis, une base Not Only NoSQL&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Auditorium presque complet. Au menu : utilisation de &lt;a href=&#34;http://redis.io&#34;&gt;redis&lt;/a&gt;  en base principale, retours d&amp;rsquo;expérience, bonnes et mauvaises pratiques, et uses cases d&amp;rsquo;utilisations de redis.
+Très bon Talk ! Contenu et rythme !
+Bravo au speaker Nicolas Martignole (@nmartignole).&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-détection-de-malwares-par-leur-empreinte-réseau:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Détection de malwares par leur empreinte réseau.&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Salle pleine, je reste debout au fond de la salle.
+Un court talk, complet sur la démarche, le process et l&amp;rsquo;architecture technique mise en œuvre pour identifier des &amp;ldquo;comportements&amp;rdquo; originaux. &lt;a href=&#34;http://hadoop.apache.org&#34;&gt;Hadoop&lt;/a&gt;, &lt;a href=&#34;http://storm.incubator.apache.org&#34;&gt;Storm&lt;/a&gt; etc&amp;hellip; BigData et mathématiques.
+Explications trés denses mais efficace de Thomas Bailet @bailetthomas.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-bluetooth-low-energy:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Bluetooth Low Energy&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Pour finir la journée, le &lt;a href=&#34;http://en.wikipedia.org/wiki/Bluetooth_low_energy&#34;&gt;BLE&lt;/a&gt; ! Passage en revue des technologies NFC/Bluetooth/BLE, modèles de programmation, demo sur un rasperry Pi. Hello World &lt;del&gt;s&amp;rsquo;affiche&lt;/del&gt; se lit en BLE :)
+Bravo Romain Menetrier (@romemore), l&amp;rsquo;effet démo était pas loin mais a été évité !&lt;/p&gt;
+
+&lt;p&gt;Au passsage, pour ceux qui s&amp;rsquo;interessent au BLE, je recommande 1 livre : &lt;a href=&#34;http://blog.bluetooth-smart.com/2012/12/09/bluetooth-low-energy-the-developers-handbook/&#34;&gt;Bluetooth Low Energy: The Developer’s Handbook&lt;/a&gt; et un projet Kickstarter, &lt;a href=&#34;https://www.kickstarter.com/projects/guardyen/metawear-production-ready-wearables-in-30-minutes&#34;&gt;MetaWare&lt;/a&gt; ,que Romain Menetrier m&amp;rsquo;a fait découvrir pendant la conférence&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-ii:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour II&lt;/h1&gt;
+
+&lt;h2 id=&#34;talk-realtime-web-avec-akka-kafka-spark-et-mesos:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Realtime Web avec Akka, Kafka, Spark et Mesos&lt;/h2&gt;
+
+&lt;p&gt;Ce talk est un retour d’expérience sur la mise en œuvre de Spark et Streaming Spark.
+Talk trés interessant, bien présenté, le retour d&amp;rsquo;expérience est vraiment le type de talk que je préfère, ça a une valeur inestimable, le temps.&lt;/p&gt;
+
+&lt;p&gt;Les sujets abordés, la collecte de donnée temps réél, la distribution des taches/message grace à &lt;a href=&#34;http://kafka.apache.org&#34;&gt;Kafka&lt;/a&gt;, leur traitement batch et temps réél avec &lt;a href=&#34;http://spark.apache.org&#34;&gt;Spark&lt;/a&gt;.
+Et enfin l&amp;rsquo;orchestration de tout cela appuyée sur &lt;a href=&#34;http://mesos.apache.org&#34;&gt;Apache Mesos&lt;/a&gt; et &lt;a href=&#34;https://github.com/mesosphere/marathon&#34;&gt;Marathon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TAlk présenté par&lt;br /&gt;
+  * Hayssam Saleh @hayssams
+  * Jean-Philippe Bunaz @jpbunaz&lt;/p&gt;
+
+&lt;h1 id=&#34;talk-les-applications-réactives:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Les Applications Réactives.&lt;/h1&gt;
+
+&lt;p&gt;Voici le talk que j&amp;rsquo;ai préféré.
+Ci dessous le synopsis de la conférence
+&amp;gt; A quels enjeux est confrontée une entreprise qui souhaite développer sa stratégie digitale ? Pourquoi les paradigmes de développement classiques ne sont pas adaptés pour développer les applications du futur ? Nous montrerons tout d&amp;rsquo;abord pourquoi au delà du buzz marketing, les Applications Réactives apportent une réponse aux défis que doivent relever les organisations. Nous décrirons ensuite les principes réactifs et en illustrerons la mise en oeuvre avec la Plate-forme Play/Akka en Scala.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fabrice Croiseaux&lt;/li&gt;
+&lt;li&gt;Antoine Detante&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les 2 speakers animent un podcast technique  : &lt;a href=&#34;http://nipcast.com/category/nipdev/&#34;&gt;nipdev&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-cassandra-une-nouvelle-ère:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Cassandra, une nouvelle ère&lt;/h2&gt;
+
+&lt;p&gt;Mon deuxieme talk sur cassandra, le premier était trés detaillé, du retour d&amp;rsquo;expérience etc&amp;hellip;
+Celui ci était animé par le papa de Cassandra, qui nous a fait toute le présentation en francais.
+Une présentation complète du système, interesante.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jonathan Ellis @spyced‎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;développer-en-mode-kick-ass:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Développer en mode Kick-Ass&lt;/h1&gt;
+
+&lt;p&gt;Un developpeur de Atlassian est venu partager les méthodes et l&amp;rsquo;esprit qui animent les équipes d&amp;rsquo;atlassian (informaticiens et non informaticiens)&lt;/p&gt;
+
+&lt;p&gt;Présentation trés dynamique, drole et tellement vrai, le developpement Kick-Ass !!&lt;/p&gt;
+
+&lt;p&gt;Pour l&amp;rsquo;anecdote, Samuel le Berrigaud, pendant la scéande à subie une defaillance du rétro projecteur, j&amp;rsquo;ai pas du m&amp;rsquo;enpecher de twitter aussitot :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;le développeur QuiCasse le rétro au #devoxxfr :-) #devkickass&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En fait le developpement (d&amp;rsquo;ailleur ça va au dela du developpement) Kick-Ass c&amp;rsquo;est l&amp;rsquo;esprit original de DevOps, appliqués à toutes les métiers qui collaborent entre eux.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;br /&gt;
+*   Samuel le Berrigaud @sleberrig&lt;/p&gt;
+
+&lt;h1 id=&#34;talk-pit-pour-savoir-si-vos-tests-vous-protègent-des-mutants:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk PIT, pour savoir si vos tests vous protègent des mutants&lt;/h1&gt;
+
+&lt;p&gt;Rapide talk d&amp;rsquo;un architecte technique de la SG pour nous parler de mutants et de tests.
+L&amp;rsquo;efficacité et la pertinence des tests unitaires, comment les vérifier ? ==&amp;gt; &lt;a href=&#34;http://pitest.org&#34;&gt;PIT mutation testing&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alexandre Victoor - @Alex_Victoor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;talk-l-internet-des-objets-par-l-exemple:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk - L&amp;rsquo;internet des objets par l&amp;rsquo;exemple&lt;/h1&gt;
+
+&lt;p&gt;Retour d&amp;rsquo;expérience sur la mise en place des machines à voter mises en place dans les salles de conférence devoxx.
+- problématique électriques, réseau, matériels, choix techniques, choix logistiques, logiciels, communications, etc&amp;hellip; trés interessant, bravo aux équipes de &lt;a href=&#34;http://www.xebia.fr&#34;&gt;Xebia&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mots clefs interessant : &lt;a href=&#34;http://mqtt.org&#34;&gt;Mqtt&lt;/a&gt;, &lt;a href=&#34;http://mosquitto.org&#34;&gt;Mosquito&lt;/a&gt;, &lt;a href=&#34;http://www.cloudmqtt.com&#34;&gt;Cloudmqtt&lt;/a&gt;, &lt;a href=&#34;http://www.eclipse.org/paho/&#34;&gt;Paho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce que j&amp;rsquo;ai retenu :
+&amp;gt; &amp;ldquo;Chacun son métier !, la construction physique d&amp;rsquo;objet, c&amp;rsquo;est pas le notre.&amp;rdquo;&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-iii:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour III&lt;/h1&gt;
+
+&lt;h2 id=&#34;talk-sur-mahout:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk sur Mahout&lt;/h2&gt;
+
+&lt;p&gt;Démystification sur &lt;a href=&#34;https://mahout.apache.org&#34;&gt;Mahout&lt;/a&gt; ainsi que les concepts qui se cachent derrière les termes “machine learning”.
+15m de retard, on s&amp;rsquo;attarde un peu sur la société, et on rentre dans le sujet.
+Fonctionnement des machines learning, on a eu une brève explication, un peu de code Mahout, un peu de mathématique/statistique, bref un vernis technique.&lt;/p&gt;
+
+&lt;h2 id=&#34;google-cloud:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Google Cloud&lt;/h2&gt;
+
+&lt;p&gt;Décryptage des offres cloud, belle explication de ce qu&amp;rsquo;est app engine, compute engine et des Managed VM ( qui fonctionnent avec Docker ), c&amp;rsquo;est la même présentation que &lt;a href=&#34;http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/&#34;&gt;celle du GDG paris&lt;/a&gt;, mais plus complète et plus clair !&lt;/p&gt;
+
+&lt;p&gt;Présenté par Ludovic Champenois ! @ludoch&lt;/p&gt;
+
+&lt;p&gt;Pour les présents, une distribution de code d&amp;rsquo;essai des offres google clouds&amp;hellip;
+Je vais pouvoir vérifier si, en pratique, c&amp;rsquo;est moins cher et moins chronophage que les offres OVH.&lt;/p&gt;
+
+&lt;p&gt;Actuellement, 1 seul container docker sera capable de tourner dans la ManagedVM, mais ils travaillent à améliorer cela et permettre d&amp;rsquo;executer autant de container que l&amp;rsquo;on veut.&lt;/p&gt;
+
+&lt;h2 id=&#34;go-pour-javaneros:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Go pour Javaneros&lt;/h2&gt;
+
+&lt;p&gt;2 eme présentation du language &lt;a href=&#34;http://golang.org&#34;&gt;GO&lt;/a&gt; au devoxx.
+Cette année , elle est directement adressée aux développeurs Java : une introduction rapide de tous les concepts qui font la force de GO, son language et son outillage, les similitudes avec java et ses différences.
+Présentation bien animée, malgrés des problèmes techniques.&lt;/p&gt;
+
+&lt;p&gt;Enfin pendant une démonstration live du fonctionnement de la concurrence dans go, Francez a introduit un &lt;code&gt;Time.sleep()&lt;/code&gt;, qu&amp;rsquo;il a supprimé ensuite en mettant en garde l&amp;rsquo;audience :
+&amp;gt; &amp;ldquo;il ne faut pas mettre de slip !&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Petite pause mentale de Francez, il ne semble pas sûr de son français sur le moment &amp;ndash; ça y est, il a compris, il retiens un sourire en coin &amp;ndash; effet immédiat : éclatement de rire dans la salle&amp;hellip; :D !&lt;/p&gt;
+
+&lt;p&gt;Présentation très dense pour qui n&amp;rsquo;a jamais fait de go : embeded struct, interface, channel.. Et tout le reste en 50 minutes chrono.&lt;/p&gt;
+
+&lt;p&gt;Heureusement que l&amp;rsquo;on n&amp;rsquo;a pas parlé de la &lt;a href=&#34;http://godoc.org/code.google.com/p/go.tools/cmd/godoc&#34;&gt;génération de la doc&lt;/a&gt;, des régles de &lt;a href=&#34;http://golang.org/doc/effective_go.html#formatting&#34;&gt;formatage du code &lt;/a&gt; intégrées aux spécifications du language, des dépendances, &amp;ldquo;&lt;a href=&#34;http://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies&#34;&gt;go get&lt;/a&gt;&amp;rdquo; etc&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;@francesc, je veux le meme tee shirt que toi !&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-rétrospective-les-projets-cloud-computing:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;TAlk &amp;ldquo;Rétrospective: les projets cloud computing&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Sceance intéressante, une retour de &lt;a href=&#34;http://www.sfeir.com&#34;&gt;SFEIR&lt;/a&gt; basée sur leurs expériences avec le cloud.
+Très instructif, beaucoup d&amp;rsquo;exemples de mauvaises pratiques et démystification du &amp;ldquo;cloud&amp;rdquo;, le tout en 10 leçons.&lt;/p&gt;
+
+&lt;p&gt;A surveiller : le &amp;ldquo;&lt;a href=&#34;https://developers.google.com/bigquery/&#34;&gt;Big query&lt;/a&gt;&amp;rdquo; de Google.&lt;/p&gt;
+
+&lt;p&gt;Présenté par Aurélien Pelletier @toutantic et Didier Girard.&lt;/p&gt;
+
+&lt;p&gt;Devoxx terminé, je vais dormir. (Correction des fautes d&amp;rsquo;orthographe pour demain&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;Pour info, toutes les conférences étaient filmées, et seront disponibles bientot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/devoxxfrjesuisdeveloppeur.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meetup pre-devoxx GoogleDevGroup Paris</title>
+      <link>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</link>
+      <pubDate>Tue, 15 Apr 2014 23:58:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</guid>
+      <description>
+
+&lt;p&gt;Bonne petite soirée le meetup Google Developer Group, une salle aux sieges confortables, et des speakers de qualité.&lt;/p&gt;
+
+&lt;p&gt;Meetup #GDG donc, pré Devoxx.&lt;/p&gt;
+
+&lt;h1 id=&#34;1er-talk-go:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;1er Talk - Go&lt;/h1&gt;
+
+&lt;p&gt;Francesc Campoy Flores (@francesc) , membre de la Go Team chez Google nous a parlé de go, de la concurrence, 80% de l&amp;rsquo;audience connais Go.
+2 chanceux ont finis le talk avec un gaufre, Gopher, dans les bras (la peluche).&lt;/p&gt;
+
+&lt;p&gt;Le système de slide utilisé pour les sujet go, fait toujours sensation, avec l&amp;rsquo;exécution de bout de code directement dans le slide :-).&lt;/p&gt;
+
+&lt;h1 id=&#34;2ème-talk-annotation-java:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;2ème Talk - annotation Java&lt;/h1&gt;
+
+&lt;p&gt;Éamonn McManus (@EamonnMcManus), ingénieur logiciel chez Google nous a parlé l&amp;rsquo;annotation en Java et en particulier de Autovalue.
+Peu entraînant, mais dans  un français parfait qui force le respect, la partie implémentation Java était moins intéressante, la partir sur le fonctionnement du traitement des annotations par le compilateur était pour moi plus intéressante.&lt;/p&gt;
+
+&lt;h1 id=&#34;3ème-talk-l-état-du-cloud-google:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;3ème Talk - l&amp;rsquo;état du cloud @google&lt;/h1&gt;
+
+&lt;p&gt;Ludovic Champenois (@ludoch) , ingénieur logiciel nous a parlé du cloud de Google, une rétrospective des offres, une présentation des futurs Managed VM, entre appEngine et ComputeEngine, qui s&amp;rsquo;appuient, entre autre, sur&amp;hellip; Docker !&lt;/p&gt;
+
+&lt;p&gt;Une petite demo sur son poste de travail, woah ! Modification sur son IDE favoris (on a bien compris que Éclipse n&amp;rsquo;avait pas conquis le cœur des ingénieurs Google) pomme+S et hop l&amp;rsquo;application est déployée dans un container docker dans une VM. Beau !&lt;/p&gt;
+
+&lt;p&gt;Merci aux organisateurs Alain Regnier, Thibault Pouget et aux sponsors, notamment CIRRUSEO qui est venu sur scène 20 minutes pour présenter son activité dans le cloud.&lt;/p&gt;
+
+&lt;p&gt;Enfin s&amp;rsquo;il y a une chose que je retiens, c&amp;rsquo;est une phrase mémorable d&amp;rsquo;un des speakers; ça ressemblait à ceci :
+&amp;gt; &amp;ldquo;Java et sa JVM sont hautement &amp;ldquo;insecure&amp;rdquo;, Oracle vous dira toujours le contraire&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Demain, c&amp;rsquo;est Devoxx :-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/gdg_paris.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DevO(xx|ps)</title>
+      <link>http://vjeantet.fr/devoxxps/</link>
+      <pubDate>Fri, 21 Feb 2014 19:11:36 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/devoxxps/</guid>
+      <description>&lt;p&gt;En attendant une date pour le Devops 2014, on se voit au DevOxx Paris 2014 !&lt;/p&gt;
+
+&lt;p&gt;Le programme &lt;a href=&#34;http://cfp.devoxx.fr/devoxxfr2014&#34;&gt;est disponible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il y a du Docker et du Golang dans l&amp;rsquo;air cette année&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/devoxx_la_conference_des_developpeurs_passionnes_2014-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker.io Paris MEETUP #5</title>
+      <link>http://vjeantet.fr/docker-io-paris-meetup-5/</link>
+      <pubDate>Fri, 14 Feb 2014 09:13:00 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/docker-io-paris-meetup-5/</guid>
+      <description>
+
+&lt;p&gt;Veille de saint Valentin 2014, les curieux, passionnés et amoureux de Docker se sont rencontrés encore une fois pour échanger leurs expériences autour de &lt;a href=&#34;http://docker.io&#34;&gt;Docker.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; n.m. (Début XXIe).&lt;br /&gt;
+&lt;strong&gt;I.&lt;/strong&gt; un projet open source pour packager, livrer et démarrer n&amp;rsquo;importe quelle application dans un conteneur léger.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La startup &lt;a href=&#34;http://www.nuxeo.com/fr‎&#34;&gt;Nuxeo&lt;/a&gt; nous a accueilli dans ses locaux juste après le boulot, avec tout le matériel nécessaire, bonne humeur, bière, sodas, chips etc.. Et des stickers assez fun :-)&lt;/p&gt;
+
+&lt;p&gt;3 talks pour cette soirée.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-1:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 1&lt;/h2&gt;
+
+&lt;p&gt;Animé par Damien Metzler, présente &lt;strong&gt;l&amp;rsquo;architecture applicative du cloud de Nuxeo&lt;/strong&gt; (nuxeo.io), sous une infra cluster à base de CoreOs organisée avec etcd et systemd afin d&amp;rsquo;orchestrer l&amp;rsquo;instanciation des containers Docker dédiés a leurs produits.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-2:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Présentation du projet Boot2Docker&lt;/strong&gt; par Steeve Morin.
+De la genèse du projet, ou comment à partir d&amp;rsquo;une joke avec d&amp;rsquo;autres utilisateurs, il en est arrivé à construire une distrib a partir de &lt;a href=&#34;http://distro.ibiblio.org/tinycorelinux/&#34;&gt;TinyCoreOs&lt;/a&gt;, les contraintes qu&amp;rsquo;il a du gérer pour réussir à compiler un noyau linux minimum, exécuter docker, et exécuter dans LXC son premier container.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/dokerparis_steeve_boot2docker.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/steeve‎&#34;&gt;@steeve&lt;/a&gt; a partagé avec nous les concepts et les exigences qui tirent le projet ( taille minimaliste, exécutable en ram ONLY, cas d&amp;rsquo;utilisation etc&amp;hellip;)&lt;br /&gt;
+Et pour finir une description de la communauté et de ses activités qui permets aujourd&amp;rsquo;hui au projet, de faire progresser, supporter et releaser &lt;a href=&#34;https://github.com/steeve/boot2docker‎&#34;&gt;boot2docker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/steeve/boot2docker-at-the-paris-docker-meetup&#34;&gt;slides boot2docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;entre-talks-pizzas:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Entre-Talks : PIZZAs !&lt;/h2&gt;
+
+&lt;p&gt;Les livreurs, en scooter, sont arrivés a plusieurs pour amener toutes les pizzas tellement il y en avait&amp;hellip;) #win #Nuxeo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/1392387514_47.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;20 minutes de pizza bières et discussions entre tous les participants du meetup.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-3:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 3&lt;/h2&gt;
+
+&lt;p&gt;Adrien Blind (et une deuxième personne dont j&amp;rsquo;ai pas noté le nom) sur &lt;strong&gt;l&amp;rsquo;intégration de Docker en entreprise.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Un talk extrêmement intéressant, c&amp;rsquo;est le résultat d&amp;rsquo;une étude que nous présenté &lt;a href=&#34;http://www.octo.com&#34;&gt;Octo Technology&lt;/a&gt;, pour identifier comment Docker peut apporter de la valeur dans les processus d&amp;rsquo;une DSI d&amp;rsquo;entreprises.
+De la mise en œuvre de solutions logicielles, jusqu&amp;rsquo;à leur exploitation sur le SI.
+Plusieurs démarches et approches présentées avec leurs  risques et intérêts.&lt;/p&gt;
+
+&lt;p&gt;Clin d&amp;rsquo;œil marrant, mais tellement juste, sur un timing de l&amp;rsquo;intégration de docker en entreprise, en cause &amp;ldquo;l&amp;rsquo;inertie&amp;rdquo; (on va rester politiquement correct) qui peut exister dans les grosse organisations.
+Avec le collègue venu avec moi, on s&amp;rsquo;est regardé et on s&amp;rsquo;est dit, &amp;ldquo;ok on sait de qui ils parlent&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Bonus, une rapide présentation de &lt;a href=&#34;https://github.com/shipyard‎&#34;&gt;Shipyard&lt;/a&gt;, pour orchestrer les containers docker dans un environnement multi host.&lt;/p&gt;
+
+&lt;p&gt;Les slides sont ici
+&lt;a href=&#34;http://fr.slideshare.net/ArnaudMAZIN/docker-meetup-paris-enterprise-docker&#34;&gt;docker-meetup-paris-enterprise-docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-end:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;The End&lt;/h2&gt;
+
+&lt;p&gt;Les slides de chacun de ces talks sont promis et attendus ..&lt;/p&gt;
+
+&lt;p&gt;Voilà, belle soirée, rencontres et présentations &amp;ndash; à bientôt pour le prochain meetup !&lt;/p&gt;
+
+&lt;p&gt;Et merci a &lt;a href=&#34;http://www.meetup.com/Docker-Paris&#34;&gt;DockerParis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/patcito‎&#34;&gt;@Patrick Aljord&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/nuxeo‎&#34;&gt;@Nuxeo&lt;/a&gt; pour l&amp;rsquo;organisation !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/docker_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Serf agent to join cluster on start</title>
+      <link>http://vjeantet.fr/keep-serf-agent-alive-while-failing-to-join-cluster/</link>
+      <pubDate>Sat, 08 Feb 2014 21:48:08 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/keep-serf-agent-alive-while-failing-to-join-cluster/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;Serf is a decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;tell-a-serf-agent-to-join-a-node-on-start:3a2faa6f36db1d2230967453733061e9&#34;&gt;Tell a serf agent to join a node on start&lt;/h2&gt;
+
+&lt;p&gt;Using serf &lt;a href=&#34;http://www.serfdom.io/docs/agent/options.html&#34;&gt;config file&lt;/a&gt; &lt;code&gt;-config-file&lt;/code&gt; you can indicate to your starting serf agent to join a specific node.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;],&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You even can indicate multiple nodes :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;,&amp;quot;node3_host&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If &lt;em&gt;node2_host&lt;/em&gt; and &lt;em&gt;node3_host&lt;/em&gt; are not available, your agent will terminate.&lt;/p&gt;
+
+&lt;h2 id=&#34;keep-agent-alive-even-if-joinning-nodes-failed:3a2faa6f36db1d2230967453733061e9&#34;&gt;Keep agent alive, even if joinning nodes failed.&lt;/h2&gt;
+
+&lt;p&gt;Just add &lt;em&gt;localhost&lt;/em&gt; (your agent bind iface) to the list of node to join on start.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;,&amp;quot;node3_host&amp;quot;,&amp;quot;localhost&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://serfdom.io&#34;&gt;serfdom.io website&lt;/a&gt;
+&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/serf_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GOlang, chez Google</title>
+      <link>http://vjeantet.fr/golang-chez-google/</link>
+      <pubDate>Wed, 05 Feb 2014 23:35:08 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/golang-chez-google/</guid>
+      <description>&lt;p&gt;Ce soir une petite session &lt;a href=&#34;http://www.meetup.com/Golang-Paris/&#34;&gt;meetup GOLANG&lt;/a&gt;, animée par un ingénieur de chez Google US.
+Très sympa, pas trop formel et dans un français presque parfait, &lt;a href=&#34;http://www.campoy.cat‎&#34;&gt;Francesc Campoy Flores&lt;/a&gt; a découvert un petit groupe de passionnés, professionnels ou curieux du langage GO.&lt;/p&gt;
+
+&lt;p&gt;Il fallait y être ce soir : liste d&amp;rsquo;attente, contrôle sécurité, signalétique android, salles ultramodernes, bref c&amp;rsquo;était dans les locaux de Google France, une attraction rien qu&amp;rsquo;à eux !&lt;/p&gt;
+
+&lt;p&gt;Le petit groupe ( assidu ! ) a pu choisir le talk du soir à main levée, &amp;ldquo;Best practices with golang&amp;rdquo; sera le talk du soir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/GOLANG_meetup_paris_Francesc_Campoy_Flores.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A noter que l&amp;rsquo;orateur à du s&amp;rsquo;arrêter prendre une photo du groupe quand il a vu le nombre de personnes qui utilisait GO en production. (Pour montrer au chef a t&amp;rsquo;il dit..)&lt;/p&gt;
+
+&lt;p&gt;Interactif et ludique (un membre du groupe a gagné une peluche Gopher en répondant justement à une question), le meetup #5 était cool !&lt;/p&gt;
+
+&lt;p&gt;Et puis pour finir sobrement, la pizza/bière by Google.&lt;/p&gt;
+
+&lt;p&gt;Bravo à Frédéric Menez et aux organisateurs, c&amp;rsquo;est un meetup de plus réussi.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/gophermega_0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

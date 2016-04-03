@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devoxx on Valère JEANTET</title>
+    <link>http://vjeantet.fr/tags/devoxx/</link>
+    <description>Recent content in Devoxx on Valère JEANTET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Fri, 18 Apr 2014 23:00:00 +0200</lastBuildDate>
+    <atom:link href="http://vjeantet.fr/tags/devoxx/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Mon Devoxx France 2014</title>
+      <link>http://vjeantet.fr/devoxx-france-2014-review/</link>
+      <pubDate>Fri, 18 Apr 2014 23:00:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/devoxx-france-2014-review/</guid>
+      <description>
+
+&lt;p&gt;3 jours de conférences au Devoxx france 2014&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-i:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour I&lt;/h1&gt;
+
+&lt;p&gt;Première journée, récupération du badge, tour des exposants, goodies, café croissants, tout commence bien.&lt;/p&gt;
+
+&lt;p&gt;Déjà 9h20, les sessions du matin vont commencer, la salle où l&amp;rsquo;on va parler docker est pleine à craquer #fail pour moi.&lt;/p&gt;
+
+&lt;p&gt;Redirection immédiate vers &amp;ldquo;Angularjs from scratch&amp;rdquo;&amp;hellip; La salle craque&amp;hellip; Je me repli vers l&amp;rsquo;auditorium sur Cassandra ; la salle peut encore accueillir du monde, ça tombe bien, ça m&amp;rsquo;intéresse.&lt;/p&gt;
+
+&lt;h2 id=&#34;techniques-de-modélisation-avancée-avec-cassandra:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Techniques de modélisation avancée avec Cassandra&lt;/h2&gt;
+
+&lt;p&gt;3h sur &lt;a href=&#34;http://cassandra.apache.org&#34;&gt;Cassandra&lt;/a&gt;, explication en profondeur de fonctionnement de Cassandra: structures de données, patterns et antipatterns, modèlisation, structures de persistance, language de requêtes etc&amp;hellip; Speaker, DuyHai DOAN (@doanduyhai), de très bonne qualité.&lt;/p&gt;
+
+&lt;h1 id=&#34;buffet:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Buffet !&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/resto.png&#34; alt=&#34;&#34; /&gt;
+Midi on mange ! Au buffet !&lt;/p&gt;
+
+&lt;h2 id=&#34;linux-101-ou-linux-domptez-le-pingouin:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Linux 101 (ou Linux, domptez le pingouin)&lt;/h2&gt;
+
+&lt;p&gt;On reprends a 13h30 sur la session de 3h &amp;ldquo;Linux 101 (ou Linux, domptez le pingouin)&amp;rdquo;
+&amp;ldquo;Un voyage au cœur de L&amp;rsquo;OS qui commence au boot, exécution du kernel, qui passe par les systèmes de gestion des services&amp;hellip;&amp;rdquo; &amp;hellip; &amp;ldquo;On ouvre le capot !&amp;rdquo;.
+Les 2 intervenants ont préparé un scénario pour rendre la chose plus dynamique, marrante c&amp;rsquo;est plutôt bien vue !
+La salle est pleine, on commence par la découverte des commandes: more, cd, cat&amp;hellip;. 20 minutes, puis on continue avec find, grep, sudo&amp;hellip; je m&amp;rsquo;assoupi.&lt;/p&gt;
+
+&lt;p&gt;Je me réveille 40 minutes avant la fin. &amp;ldquo;grub&amp;rdquo; est sur les slides, puis on termine avec systemd, c&amp;rsquo;est ce qui m&amp;rsquo;a le plus intéressé.&lt;/p&gt;
+
+&lt;p&gt;Bref déçu par le contenu, les auditeurs connaissaient déjà linux, les intervenants étant des experts redhat &amp;amp; Devops, je pensai que l&amp;rsquo;on allait rentrer dans l&amp;rsquo;os et pas le découvrir en surface.
+Ça fera tout de même une belle vidéo pour qui ne connais que très très peu linux et voudrait le redécouvrir.&lt;/p&gt;
+
+&lt;p&gt;#Café !
+&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/cafe.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-redis-une-base-not-only-nosql:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Redis, une base Not Only NoSQL&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Auditorium presque complet. Au menu : utilisation de &lt;a href=&#34;http://redis.io&#34;&gt;redis&lt;/a&gt;  en base principale, retours d&amp;rsquo;expérience, bonnes et mauvaises pratiques, et uses cases d&amp;rsquo;utilisations de redis.
+Très bon Talk ! Contenu et rythme !
+Bravo au speaker Nicolas Martignole (@nmartignole).&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-détection-de-malwares-par-leur-empreinte-réseau:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Détection de malwares par leur empreinte réseau.&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Salle pleine, je reste debout au fond de la salle.
+Un court talk, complet sur la démarche, le process et l&amp;rsquo;architecture technique mise en œuvre pour identifier des &amp;ldquo;comportements&amp;rdquo; originaux. &lt;a href=&#34;http://hadoop.apache.org&#34;&gt;Hadoop&lt;/a&gt;, &lt;a href=&#34;http://storm.incubator.apache.org&#34;&gt;Storm&lt;/a&gt; etc&amp;hellip; BigData et mathématiques.
+Explications trés denses mais efficace de Thomas Bailet @bailetthomas.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-bluetooth-low-energy:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk &amp;ldquo;Bluetooth Low Energy&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Pour finir la journée, le &lt;a href=&#34;http://en.wikipedia.org/wiki/Bluetooth_low_energy&#34;&gt;BLE&lt;/a&gt; ! Passage en revue des technologies NFC/Bluetooth/BLE, modèles de programmation, demo sur un rasperry Pi. Hello World &lt;del&gt;s&amp;rsquo;affiche&lt;/del&gt; se lit en BLE :)
+Bravo Romain Menetrier (@romemore), l&amp;rsquo;effet démo était pas loin mais a été évité !&lt;/p&gt;
+
+&lt;p&gt;Au passsage, pour ceux qui s&amp;rsquo;interessent au BLE, je recommande 1 livre : &lt;a href=&#34;http://blog.bluetooth-smart.com/2012/12/09/bluetooth-low-energy-the-developers-handbook/&#34;&gt;Bluetooth Low Energy: The Developer’s Handbook&lt;/a&gt; et un projet Kickstarter, &lt;a href=&#34;https://www.kickstarter.com/projects/guardyen/metawear-production-ready-wearables-in-30-minutes&#34;&gt;MetaWare&lt;/a&gt; ,que Romain Menetrier m&amp;rsquo;a fait découvrir pendant la conférence&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-ii:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour II&lt;/h1&gt;
+
+&lt;h2 id=&#34;talk-realtime-web-avec-akka-kafka-spark-et-mesos:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Realtime Web avec Akka, Kafka, Spark et Mesos&lt;/h2&gt;
+
+&lt;p&gt;Ce talk est un retour d’expérience sur la mise en œuvre de Spark et Streaming Spark.
+Talk trés interessant, bien présenté, le retour d&amp;rsquo;expérience est vraiment le type de talk que je préfère, ça a une valeur inestimable, le temps.&lt;/p&gt;
+
+&lt;p&gt;Les sujets abordés, la collecte de donnée temps réél, la distribution des taches/message grace à &lt;a href=&#34;http://kafka.apache.org&#34;&gt;Kafka&lt;/a&gt;, leur traitement batch et temps réél avec &lt;a href=&#34;http://spark.apache.org&#34;&gt;Spark&lt;/a&gt;.
+Et enfin l&amp;rsquo;orchestration de tout cela appuyée sur &lt;a href=&#34;http://mesos.apache.org&#34;&gt;Apache Mesos&lt;/a&gt; et &lt;a href=&#34;https://github.com/mesosphere/marathon&#34;&gt;Marathon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TAlk présenté par&lt;br /&gt;
+  * Hayssam Saleh @hayssams
+  * Jean-Philippe Bunaz @jpbunaz&lt;/p&gt;
+
+&lt;h1 id=&#34;talk-les-applications-réactives:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Les Applications Réactives.&lt;/h1&gt;
+
+&lt;p&gt;Voici le talk que j&amp;rsquo;ai préféré.
+Ci dessous le synopsis de la conférence
+&amp;gt; A quels enjeux est confrontée une entreprise qui souhaite développer sa stratégie digitale ? Pourquoi les paradigmes de développement classiques ne sont pas adaptés pour développer les applications du futur ? Nous montrerons tout d&amp;rsquo;abord pourquoi au delà du buzz marketing, les Applications Réactives apportent une réponse aux défis que doivent relever les organisations. Nous décrirons ensuite les principes réactifs et en illustrerons la mise en oeuvre avec la Plate-forme Play/Akka en Scala.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Fabrice Croiseaux&lt;/li&gt;
+&lt;li&gt;Antoine Detante&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Les 2 speakers animent un podcast technique  : &lt;a href=&#34;http://nipcast.com/category/nipdev/&#34;&gt;nipdev&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-cassandra-une-nouvelle-ère:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk Cassandra, une nouvelle ère&lt;/h2&gt;
+
+&lt;p&gt;Mon deuxieme talk sur cassandra, le premier était trés detaillé, du retour d&amp;rsquo;expérience etc&amp;hellip;
+Celui ci était animé par le papa de Cassandra, qui nous a fait toute le présentation en francais.
+Une présentation complète du système, interesante.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Jonathan Ellis @spyced‎&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;développer-en-mode-kick-ass:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Développer en mode Kick-Ass&lt;/h1&gt;
+
+&lt;p&gt;Un developpeur de Atlassian est venu partager les méthodes et l&amp;rsquo;esprit qui animent les équipes d&amp;rsquo;atlassian (informaticiens et non informaticiens)&lt;/p&gt;
+
+&lt;p&gt;Présentation trés dynamique, drole et tellement vrai, le developpement Kick-Ass !!&lt;/p&gt;
+
+&lt;p&gt;Pour l&amp;rsquo;anecdote, Samuel le Berrigaud, pendant la scéande à subie une defaillance du rétro projecteur, j&amp;rsquo;ai pas du m&amp;rsquo;enpecher de twitter aussitot :)&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;le développeur QuiCasse le rétro au #devoxxfr :-) #devkickass&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;En fait le developpement (d&amp;rsquo;ailleur ça va au dela du developpement) Kick-Ass c&amp;rsquo;est l&amp;rsquo;esprit original de DevOps, appliqués à toutes les métiers qui collaborent entre eux.&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;br /&gt;
+*   Samuel le Berrigaud @sleberrig&lt;/p&gt;
+
+&lt;h1 id=&#34;talk-pit-pour-savoir-si-vos-tests-vous-protègent-des-mutants:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk PIT, pour savoir si vos tests vous protègent des mutants&lt;/h1&gt;
+
+&lt;p&gt;Rapide talk d&amp;rsquo;un architecte technique de la SG pour nous parler de mutants et de tests.
+L&amp;rsquo;efficacité et la pertinence des tests unitaires, comment les vérifier ? ==&amp;gt; &lt;a href=&#34;http://pitest.org&#34;&gt;PIT mutation testing&lt;/a&gt; !&lt;/p&gt;
+
+&lt;p&gt;Présenté par&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Alexandre Victoor - @Alex_Victoor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&#34;talk-l-internet-des-objets-par-l-exemple:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk - L&amp;rsquo;internet des objets par l&amp;rsquo;exemple&lt;/h1&gt;
+
+&lt;p&gt;Retour d&amp;rsquo;expérience sur la mise en place des machines à voter mises en place dans les salles de conférence devoxx.
+- problématique électriques, réseau, matériels, choix techniques, choix logistiques, logiciels, communications, etc&amp;hellip; trés interessant, bravo aux équipes de &lt;a href=&#34;http://www.xebia.fr&#34;&gt;Xebia&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Mots clefs interessant : &lt;a href=&#34;http://mqtt.org&#34;&gt;Mqtt&lt;/a&gt;, &lt;a href=&#34;http://mosquitto.org&#34;&gt;Mosquito&lt;/a&gt;, &lt;a href=&#34;http://www.cloudmqtt.com&#34;&gt;Cloudmqtt&lt;/a&gt;, &lt;a href=&#34;http://www.eclipse.org/paho/&#34;&gt;Paho&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ce que j&amp;rsquo;ai retenu :
+&amp;gt; &amp;ldquo;Chacun son métier !, la construction physique d&amp;rsquo;objet, c&amp;rsquo;est pas le notre.&amp;rdquo;&lt;/p&gt;
+
+&lt;h1 id=&#34;devoxx-fr-jour-iii:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Devoxx FR Jour III&lt;/h1&gt;
+
+&lt;h2 id=&#34;talk-sur-mahout:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Talk sur Mahout&lt;/h2&gt;
+
+&lt;p&gt;Démystification sur &lt;a href=&#34;https://mahout.apache.org&#34;&gt;Mahout&lt;/a&gt; ainsi que les concepts qui se cachent derrière les termes “machine learning”.
+15m de retard, on s&amp;rsquo;attarde un peu sur la société, et on rentre dans le sujet.
+Fonctionnement des machines learning, on a eu une brève explication, un peu de code Mahout, un peu de mathématique/statistique, bref un vernis technique.&lt;/p&gt;
+
+&lt;h2 id=&#34;google-cloud:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Google Cloud&lt;/h2&gt;
+
+&lt;p&gt;Décryptage des offres cloud, belle explication de ce qu&amp;rsquo;est app engine, compute engine et des Managed VM ( qui fonctionnent avec Docker ), c&amp;rsquo;est la même présentation que &lt;a href=&#34;http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/&#34;&gt;celle du GDG paris&lt;/a&gt;, mais plus complète et plus clair !&lt;/p&gt;
+
+&lt;p&gt;Présenté par Ludovic Champenois ! @ludoch&lt;/p&gt;
+
+&lt;p&gt;Pour les présents, une distribution de code d&amp;rsquo;essai des offres google clouds&amp;hellip;
+Je vais pouvoir vérifier si, en pratique, c&amp;rsquo;est moins cher et moins chronophage que les offres OVH.&lt;/p&gt;
+
+&lt;p&gt;Actuellement, 1 seul container docker sera capable de tourner dans la ManagedVM, mais ils travaillent à améliorer cela et permettre d&amp;rsquo;executer autant de container que l&amp;rsquo;on veut.&lt;/p&gt;
+
+&lt;h2 id=&#34;go-pour-javaneros:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;Go pour Javaneros&lt;/h2&gt;
+
+&lt;p&gt;2 eme présentation du language &lt;a href=&#34;http://golang.org&#34;&gt;GO&lt;/a&gt; au devoxx.
+Cette année , elle est directement adressée aux développeurs Java : une introduction rapide de tous les concepts qui font la force de GO, son language et son outillage, les similitudes avec java et ses différences.
+Présentation bien animée, malgrés des problèmes techniques.&lt;/p&gt;
+
+&lt;p&gt;Enfin pendant une démonstration live du fonctionnement de la concurrence dans go, Francez a introduit un &lt;code&gt;Time.sleep()&lt;/code&gt;, qu&amp;rsquo;il a supprimé ensuite en mettant en garde l&amp;rsquo;audience :
+&amp;gt; &amp;ldquo;il ne faut pas mettre de slip !&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Petite pause mentale de Francez, il ne semble pas sûr de son français sur le moment &amp;ndash; ça y est, il a compris, il retiens un sourire en coin &amp;ndash; effet immédiat : éclatement de rire dans la salle&amp;hellip; :D !&lt;/p&gt;
+
+&lt;p&gt;Présentation très dense pour qui n&amp;rsquo;a jamais fait de go : embeded struct, interface, channel.. Et tout le reste en 50 minutes chrono.&lt;/p&gt;
+
+&lt;p&gt;Heureusement que l&amp;rsquo;on n&amp;rsquo;a pas parlé de la &lt;a href=&#34;http://godoc.org/code.google.com/p/go.tools/cmd/godoc&#34;&gt;génération de la doc&lt;/a&gt;, des régles de &lt;a href=&#34;http://golang.org/doc/effective_go.html#formatting&#34;&gt;formatage du code &lt;/a&gt; intégrées aux spécifications du language, des dépendances, &amp;ldquo;&lt;a href=&#34;http://golang.org/cmd/go/#hdr-Download_and_install_packages_and_dependencies&#34;&gt;go get&lt;/a&gt;&amp;rdquo; etc&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;@francesc, je veux le meme tee shirt que toi !&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-rétrospective-les-projets-cloud-computing:5ff25dee227dc7902b0eef45127a3a56&#34;&gt;TAlk &amp;ldquo;Rétrospective: les projets cloud computing&amp;rdquo;&lt;/h2&gt;
+
+&lt;p&gt;Sceance intéressante, une retour de &lt;a href=&#34;http://www.sfeir.com&#34;&gt;SFEIR&lt;/a&gt; basée sur leurs expériences avec le cloud.
+Très instructif, beaucoup d&amp;rsquo;exemples de mauvaises pratiques et démystification du &amp;ldquo;cloud&amp;rdquo;, le tout en 10 leçons.&lt;/p&gt;
+
+&lt;p&gt;A surveiller : le &amp;ldquo;&lt;a href=&#34;https://developers.google.com/bigquery/&#34;&gt;Big query&lt;/a&gt;&amp;rdquo; de Google.&lt;/p&gt;
+
+&lt;p&gt;Présenté par Aurélien Pelletier @toutantic et Didier Girard.&lt;/p&gt;
+
+&lt;p&gt;Devoxx terminé, je vais dormir. (Correction des fautes d&amp;rsquo;orthographe pour demain&amp;hellip;)&lt;/p&gt;
+
+&lt;p&gt;Pour info, toutes les conférences étaient filmées, et seront disponibles bientot.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/devoxxfrjesuisdeveloppeur.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Meetup pre-devoxx GoogleDevGroup Paris</title>
+      <link>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</link>
+      <pubDate>Tue, 15 Apr 2014 23:58:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</guid>
+      <description>
+
+&lt;p&gt;Bonne petite soirée le meetup Google Developer Group, une salle aux sieges confortables, et des speakers de qualité.&lt;/p&gt;
+
+&lt;p&gt;Meetup #GDG donc, pré Devoxx.&lt;/p&gt;
+
+&lt;h1 id=&#34;1er-talk-go:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;1er Talk - Go&lt;/h1&gt;
+
+&lt;p&gt;Francesc Campoy Flores (@francesc) , membre de la Go Team chez Google nous a parlé de go, de la concurrence, 80% de l&amp;rsquo;audience connais Go.
+2 chanceux ont finis le talk avec un gaufre, Gopher, dans les bras (la peluche).&lt;/p&gt;
+
+&lt;p&gt;Le système de slide utilisé pour les sujet go, fait toujours sensation, avec l&amp;rsquo;exécution de bout de code directement dans le slide :-).&lt;/p&gt;
+
+&lt;h1 id=&#34;2ème-talk-annotation-java:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;2ème Talk - annotation Java&lt;/h1&gt;
+
+&lt;p&gt;Éamonn McManus (@EamonnMcManus), ingénieur logiciel chez Google nous a parlé l&amp;rsquo;annotation en Java et en particulier de Autovalue.
+Peu entraînant, mais dans  un français parfait qui force le respect, la partie implémentation Java était moins intéressante, la partir sur le fonctionnement du traitement des annotations par le compilateur était pour moi plus intéressante.&lt;/p&gt;
+
+&lt;h1 id=&#34;3ème-talk-l-état-du-cloud-google:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;3ème Talk - l&amp;rsquo;état du cloud @google&lt;/h1&gt;
+
+&lt;p&gt;Ludovic Champenois (@ludoch) , ingénieur logiciel nous a parlé du cloud de Google, une rétrospective des offres, une présentation des futurs Managed VM, entre appEngine et ComputeEngine, qui s&amp;rsquo;appuient, entre autre, sur&amp;hellip; Docker !&lt;/p&gt;
+
+&lt;p&gt;Une petite demo sur son poste de travail, woah ! Modification sur son IDE favoris (on a bien compris que Éclipse n&amp;rsquo;avait pas conquis le cœur des ingénieurs Google) pomme+S et hop l&amp;rsquo;application est déployée dans un container docker dans une VM. Beau !&lt;/p&gt;
+
+&lt;p&gt;Merci aux organisateurs Alain Regnier, Thibault Pouget et aux sponsors, notamment CIRRUSEO qui est venu sur scène 20 minutes pour présenter son activité dans le cloud.&lt;/p&gt;
+
+&lt;p&gt;Enfin s&amp;rsquo;il y a une chose que je retiens, c&amp;rsquo;est une phrase mémorable d&amp;rsquo;un des speakers; ça ressemblait à ceci :
+&amp;gt; &amp;ldquo;Java et sa JVM sont hautement &amp;ldquo;insecure&amp;rdquo;, Oracle vous dira toujours le contraire&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Demain, c&amp;rsquo;est Devoxx :-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/gdg_paris.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DevO(xx|ps)</title>
+      <link>http://vjeantet.fr/devoxxps/</link>
+      <pubDate>Fri, 21 Feb 2014 19:11:36 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/devoxxps/</guid>
+      <description>&lt;p&gt;En attendant une date pour le Devops 2014, on se voit au DevOxx Paris 2014 !&lt;/p&gt;
+
+&lt;p&gt;Le programme &lt;a href=&#34;http://cfp.devoxx.fr/devoxxfr2014&#34;&gt;est disponible&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il y a du Docker et du Golang dans l&amp;rsquo;air cette année&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/devoxx_la_conference_des_developpeurs_passionnes_2014-1.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

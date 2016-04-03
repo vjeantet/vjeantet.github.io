@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serf on Valère JEANTET</title>
+    <link>http://vjeantet.fr/tags/serf/</link>
+    <description>Recent content in Serf on Valère JEANTET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Sat, 08 Feb 2014 21:48:08 +0100</lastBuildDate>
+    <atom:link href="http://vjeantet.fr/tags/serf/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Serf agent to join cluster on start</title>
+      <link>http://vjeantet.fr/keep-serf-agent-alive-while-failing-to-join-cluster/</link>
+      <pubDate>Sat, 08 Feb 2014 21:48:08 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/keep-serf-agent-alive-while-failing-to-join-cluster/</guid>
+      <description>
+
+&lt;blockquote&gt;
+&lt;p&gt;Serf is a decentralized solution for service discovery and orchestration that is lightweight, highly available, and fault tolerant.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;tell-a-serf-agent-to-join-a-node-on-start:3a2faa6f36db1d2230967453733061e9&#34;&gt;Tell a serf agent to join a node on start&lt;/h2&gt;
+
+&lt;p&gt;Using serf &lt;a href=&#34;http://www.serfdom.io/docs/agent/options.html&#34;&gt;config file&lt;/a&gt; &lt;code&gt;-config-file&lt;/code&gt; you can indicate to your starting serf agent to join a specific node.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;],&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You even can indicate multiple nodes :&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;,&amp;quot;node3_host&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If &lt;em&gt;node2_host&lt;/em&gt; and &lt;em&gt;node3_host&lt;/em&gt; are not available, your agent will terminate.&lt;/p&gt;
+
+&lt;h2 id=&#34;keep-agent-alive-even-if-joinning-nodes-failed:3a2faa6f36db1d2230967453733061e9&#34;&gt;Keep agent alive, even if joinning nodes failed.&lt;/h2&gt;
+
+&lt;p&gt;Just add &lt;em&gt;localhost&lt;/em&gt; (your agent bind iface) to the list of node to join on start.&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;quot;start_join&amp;quot;:[&amp;quot;node2_host&amp;quot;,&amp;quot;node3_host&amp;quot;,&amp;quot;localhost&amp;quot;]&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://serfdom.io&#34;&gt;serfdom.io website&lt;/a&gt;
+&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/serf_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

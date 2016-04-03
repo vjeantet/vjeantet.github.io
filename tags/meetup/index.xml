@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Meetup on Valère JEANTET</title>
+    <link>http://vjeantet.fr/tags/meetup/</link>
+    <description>Recent content in Meetup on Valère JEANTET</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-FR</language>
+    <copyright>All rights reserved - 2016</copyright>
+    <lastBuildDate>Tue, 15 Apr 2014 23:58:00 +0200</lastBuildDate>
+    <atom:link href="http://vjeantet.fr/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Meetup pre-devoxx GoogleDevGroup Paris</title>
+      <link>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</link>
+      <pubDate>Tue, 15 Apr 2014 23:58:00 +0200</pubDate>
+      
+      <guid>http://vjeantet.fr/meetup-pre-devoxx-googledevgroup-paris/</guid>
+      <description>
+
+&lt;p&gt;Bonne petite soirée le meetup Google Developer Group, une salle aux sieges confortables, et des speakers de qualité.&lt;/p&gt;
+
+&lt;p&gt;Meetup #GDG donc, pré Devoxx.&lt;/p&gt;
+
+&lt;h1 id=&#34;1er-talk-go:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;1er Talk - Go&lt;/h1&gt;
+
+&lt;p&gt;Francesc Campoy Flores (@francesc) , membre de la Go Team chez Google nous a parlé de go, de la concurrence, 80% de l&amp;rsquo;audience connais Go.
+2 chanceux ont finis le talk avec un gaufre, Gopher, dans les bras (la peluche).&lt;/p&gt;
+
+&lt;p&gt;Le système de slide utilisé pour les sujet go, fait toujours sensation, avec l&amp;rsquo;exécution de bout de code directement dans le slide :-).&lt;/p&gt;
+
+&lt;h1 id=&#34;2ème-talk-annotation-java:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;2ème Talk - annotation Java&lt;/h1&gt;
+
+&lt;p&gt;Éamonn McManus (@EamonnMcManus), ingénieur logiciel chez Google nous a parlé l&amp;rsquo;annotation en Java et en particulier de Autovalue.
+Peu entraînant, mais dans  un français parfait qui force le respect, la partie implémentation Java était moins intéressante, la partir sur le fonctionnement du traitement des annotations par le compilateur était pour moi plus intéressante.&lt;/p&gt;
+
+&lt;h1 id=&#34;3ème-talk-l-état-du-cloud-google:c76e3a3406bffe56fe0997e0bac1914d&#34;&gt;3ème Talk - l&amp;rsquo;état du cloud @google&lt;/h1&gt;
+
+&lt;p&gt;Ludovic Champenois (@ludoch) , ingénieur logiciel nous a parlé du cloud de Google, une rétrospective des offres, une présentation des futurs Managed VM, entre appEngine et ComputeEngine, qui s&amp;rsquo;appuient, entre autre, sur&amp;hellip; Docker !&lt;/p&gt;
+
+&lt;p&gt;Une petite demo sur son poste de travail, woah ! Modification sur son IDE favoris (on a bien compris que Éclipse n&amp;rsquo;avait pas conquis le cœur des ingénieurs Google) pomme+S et hop l&amp;rsquo;application est déployée dans un container docker dans une VM. Beau !&lt;/p&gt;
+
+&lt;p&gt;Merci aux organisateurs Alain Regnier, Thibault Pouget et aux sponsors, notamment CIRRUSEO qui est venu sur scène 20 minutes pour présenter son activité dans le cloud.&lt;/p&gt;
+
+&lt;p&gt;Enfin s&amp;rsquo;il y a une chose que je retiens, c&amp;rsquo;est une phrase mémorable d&amp;rsquo;un des speakers; ça ressemblait à ceci :
+&amp;gt; &amp;ldquo;Java et sa JVM sont hautement &amp;ldquo;insecure&amp;rdquo;, Oracle vous dira toujours le contraire&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Demain, c&amp;rsquo;est Devoxx :-)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Apr/gdg_paris.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Docker.io Paris MEETUP #5</title>
+      <link>http://vjeantet.fr/docker-io-paris-meetup-5/</link>
+      <pubDate>Fri, 14 Feb 2014 09:13:00 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/docker-io-paris-meetup-5/</guid>
+      <description>
+
+&lt;p&gt;Veille de saint Valentin 2014, les curieux, passionnés et amoureux de Docker se sont rencontrés encore une fois pour échanger leurs expériences autour de &lt;a href=&#34;http://docker.io&#34;&gt;Docker.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Docker&lt;/strong&gt; n.m. (Début XXIe).&lt;br /&gt;
+&lt;strong&gt;I.&lt;/strong&gt; un projet open source pour packager, livrer et démarrer n&amp;rsquo;importe quelle application dans un conteneur léger.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;La startup &lt;a href=&#34;http://www.nuxeo.com/fr‎&#34;&gt;Nuxeo&lt;/a&gt; nous a accueilli dans ses locaux juste après le boulot, avec tout le matériel nécessaire, bonne humeur, bière, sodas, chips etc.. Et des stickers assez fun :-)&lt;/p&gt;
+
+&lt;p&gt;3 talks pour cette soirée.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-1:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 1&lt;/h2&gt;
+
+&lt;p&gt;Animé par Damien Metzler, présente &lt;strong&gt;l&amp;rsquo;architecture applicative du cloud de Nuxeo&lt;/strong&gt; (nuxeo.io), sous une infra cluster à base de CoreOs organisée avec etcd et systemd afin d&amp;rsquo;orchestrer l&amp;rsquo;instanciation des containers Docker dédiés a leurs produits.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-2:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 2&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Présentation du projet Boot2Docker&lt;/strong&gt; par Steeve Morin.
+De la genèse du projet, ou comment à partir d&amp;rsquo;une joke avec d&amp;rsquo;autres utilisateurs, il en est arrivé à construire une distrib a partir de &lt;a href=&#34;http://distro.ibiblio.org/tinycorelinux/&#34;&gt;TinyCoreOs&lt;/a&gt;, les contraintes qu&amp;rsquo;il a du gérer pour réussir à compiler un noyau linux minimum, exécuter docker, et exécuter dans LXC son premier container.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/dokerparis_steeve_boot2docker.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://twitter.com/steeve‎&#34;&gt;@steeve&lt;/a&gt; a partagé avec nous les concepts et les exigences qui tirent le projet ( taille minimaliste, exécutable en ram ONLY, cas d&amp;rsquo;utilisation etc&amp;hellip;)&lt;br /&gt;
+Et pour finir une description de la communauté et de ses activités qui permets aujourd&amp;rsquo;hui au projet, de faire progresser, supporter et releaser &lt;a href=&#34;https://github.com/steeve/boot2docker‎&#34;&gt;boot2docker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://speakerdeck.com/steeve/boot2docker-at-the-paris-docker-meetup&#34;&gt;slides boot2docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;entre-talks-pizzas:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Entre-Talks : PIZZAs !&lt;/h2&gt;
+
+&lt;p&gt;Les livreurs, en scooter, sont arrivés a plusieurs pour amener toutes les pizzas tellement il y en avait&amp;hellip;) #win #Nuxeo.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/1392387514_47.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;20 minutes de pizza bières et discussions entre tous les participants du meetup.&lt;/p&gt;
+
+&lt;h2 id=&#34;talk-3:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;Talk 3&lt;/h2&gt;
+
+&lt;p&gt;Adrien Blind (et une deuxième personne dont j&amp;rsquo;ai pas noté le nom) sur &lt;strong&gt;l&amp;rsquo;intégration de Docker en entreprise.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Un talk extrêmement intéressant, c&amp;rsquo;est le résultat d&amp;rsquo;une étude que nous présenté &lt;a href=&#34;http://www.octo.com&#34;&gt;Octo Technology&lt;/a&gt;, pour identifier comment Docker peut apporter de la valeur dans les processus d&amp;rsquo;une DSI d&amp;rsquo;entreprises.
+De la mise en œuvre de solutions logicielles, jusqu&amp;rsquo;à leur exploitation sur le SI.
+Plusieurs démarches et approches présentées avec leurs  risques et intérêts.&lt;/p&gt;
+
+&lt;p&gt;Clin d&amp;rsquo;œil marrant, mais tellement juste, sur un timing de l&amp;rsquo;intégration de docker en entreprise, en cause &amp;ldquo;l&amp;rsquo;inertie&amp;rdquo; (on va rester politiquement correct) qui peut exister dans les grosse organisations.
+Avec le collègue venu avec moi, on s&amp;rsquo;est regardé et on s&amp;rsquo;est dit, &amp;ldquo;ok on sait de qui ils parlent&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Bonus, une rapide présentation de &lt;a href=&#34;https://github.com/shipyard‎&#34;&gt;Shipyard&lt;/a&gt;, pour orchestrer les containers docker dans un environnement multi host.&lt;/p&gt;
+
+&lt;p&gt;Les slides sont ici
+&lt;a href=&#34;http://fr.slideshare.net/ArnaudMAZIN/docker-meetup-paris-enterprise-docker&#34;&gt;docker-meetup-paris-enterprise-docker&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;the-end:55063fb77a963ebfa2ba297ec96e393d&#34;&gt;The End&lt;/h2&gt;
+
+&lt;p&gt;Les slides de chacun de ces talks sont promis et attendus ..&lt;/p&gt;
+
+&lt;p&gt;Voilà, belle soirée, rencontres et présentations &amp;ndash; à bientôt pour le prochain meetup !&lt;/p&gt;
+
+&lt;p&gt;Et merci a &lt;a href=&#34;http://www.meetup.com/Docker-Paris&#34;&gt;DockerParis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/patcito‎&#34;&gt;@Patrick Aljord&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/nuxeo‎&#34;&gt;@Nuxeo&lt;/a&gt; pour l&amp;rsquo;organisation !&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/docker_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>GOlang, chez Google</title>
+      <link>http://vjeantet.fr/golang-chez-google/</link>
+      <pubDate>Wed, 05 Feb 2014 23:35:08 +0100</pubDate>
+      
+      <guid>http://vjeantet.fr/golang-chez-google/</guid>
+      <description>&lt;p&gt;Ce soir une petite session &lt;a href=&#34;http://www.meetup.com/Golang-Paris/&#34;&gt;meetup GOLANG&lt;/a&gt;, animée par un ingénieur de chez Google US.
+Très sympa, pas trop formel et dans un français presque parfait, &lt;a href=&#34;http://www.campoy.cat‎&#34;&gt;Francesc Campoy Flores&lt;/a&gt; a découvert un petit groupe de passionnés, professionnels ou curieux du langage GO.&lt;/p&gt;
+
+&lt;p&gt;Il fallait y être ce soir : liste d&amp;rsquo;attente, contrôle sécurité, signalétique android, salles ultramodernes, bref c&amp;rsquo;était dans les locaux de Google France, une attraction rien qu&amp;rsquo;à eux !&lt;/p&gt;
+
+&lt;p&gt;Le petit groupe ( assidu ! ) a pu choisir le talk du soir à main levée, &amp;ldquo;Best practices with golang&amp;rdquo; sera le talk du soir.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/GOLANG_meetup_paris_Francesc_Campoy_Flores.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A noter que l&amp;rsquo;orateur à du s&amp;rsquo;arrêter prendre une photo du groupe quand il a vu le nombre de personnes qui utilisait GO en production. (Pour montrer au chef a t&amp;rsquo;il dit..)&lt;/p&gt;
+
+&lt;p&gt;Interactif et ludique (un membre du groupe a gagné une peluche Gopher en répondant justement à une question), le meetup #5 était cool !&lt;/p&gt;
+
+&lt;p&gt;Et puis pour finir sobrement, la pizza/bière by Google.&lt;/p&gt;
+
+&lt;p&gt;Bravo à Frédéric Menez et aux organisateurs, c&amp;rsquo;est un meetup de plus réussi.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/gophermega_0.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
