@@ -38,7 +38,7 @@
 &lt;p&gt;&lt;strong&gt;Présentation du projet Boot2Docker&lt;/strong&gt; par Steeve Morin.
 De la genèse du projet, ou comment à partir d&amp;rsquo;une joke avec d&amp;rsquo;autres utilisateurs, il en est arrivé à construire une distrib a partir de &lt;a href=&#34;http://distro.ibiblio.org/tinycorelinux/&#34;&gt;TinyCoreOs&lt;/a&gt;, les contraintes qu&amp;rsquo;il a du gérer pour réussir à compiler un noyau linux minimum, exécuter docker, et exécuter dans LXC son premier container.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/dokerparis_steeve_boot2docker.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://forestry.io/sites/if-azewa8mogmw/image/%2Fcontent%2Fimages%2F2014%2FFeb%2Fdokerparis_steeve_boot2docker.JPG&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://twitter.com/steeve‎&#34;&gt;@steeve&lt;/a&gt; a partagé avec nous les concepts et les exigences qui tirent le projet ( taille minimaliste, exécutable en ram ONLY, cas d&amp;rsquo;utilisation etc&amp;hellip;)&lt;br /&gt;
 Et pour finir une description de la communauté et de ses activités qui permets aujourd&amp;rsquo;hui au projet, de faire progresser, supporter et releaser &lt;a href=&#34;https://github.com/steeve/boot2docker‎&#34;&gt;boot2docker&lt;/a&gt;.&lt;/p&gt;
@@ -49,7 +49,7 @@ Et pour finir une description de la communauté et de ses activités qui permets
 
 &lt;p&gt;Les livreurs, en scooter, sont arrivés a plusieurs pour amener toutes les pizzas tellement il y en avait&amp;hellip;) #win #Nuxeo.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/1392387514_47.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://forestry.io/sites/if-azewa8mogmw/image/%2Fcontent%2Fimages%2F2014%2FFeb%2F1392387514_47.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;20 minutes de pizza bières et discussions entre tous les participants du meetup.&lt;/p&gt;
 
@@ -77,7 +77,7 @@ Avec le collègue venu avec moi, on s&amp;rsquo;est regardé et on s&amp;rsquo;e
 
 &lt;p&gt;Et merci a &lt;a href=&#34;http://www.meetup.com/Docker-Paris&#34;&gt;DockerParis&lt;/a&gt;, &lt;a href=&#34;https://twitter.com/patcito‎&#34;&gt;@Patrick Aljord&lt;/a&gt; et &lt;a href=&#34;https://twitter.com/nuxeo‎&#34;&gt;@Nuxeo&lt;/a&gt; pour l&amp;rsquo;organisation !&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://vjeantet.fr/content/images/2014/Feb/docker_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://forestry.io/sites/if-azewa8mogmw/image/%2Fcontent%2Fimages%2F2014%2FFeb%2Fdocker_logo.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
     
